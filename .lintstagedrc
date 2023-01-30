@@ -1,0 +1,9 @@
+{
+  "**/*.css": [
+    "prettier --config .prettierrc.json --write",
+    "stylelint --fix"
+  ],
+  "**/*.html": [
+    "prettier --config .prettierrc.json --write"
+  ]
+}

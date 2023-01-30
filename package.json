@@ -1,0 +1,41 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build",
+    "prepare": "husky install",
+    "format": "npx prettier src --check",
+    "format:fix": "npm run format -- --write",
+    "lint": "stylelint src",
+    "lint:fix": "npm run lint -- --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-clean-order": "^2.3.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^6.0.1",
+    "gh-pages": "^4.0.0",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "@commitlint/cli": "^17.4.1",
+    "@commitlint/config-conventional": "^17.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
