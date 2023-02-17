@@ -1,0 +1,39 @@
+/* LibreFranklin */
+@font-face {
+    font-family: "LibreFranklin";
+    font-style: normal;
+    font-weight: 400;
+    src: local('LibreFranklin-Regular'),
+        url('../../assets/fonts/LibreFranklin-Regular.ttf') format('ttf'),
+        url('../../assets/fonts/LibreFranklin-Regular.woff') format('woff'),
+        url('../../assets/fonts/LibreFranklin-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: "LibreFranklin";
+    font-style: bold;
+    font-weight: 700;
+    src: local('LibreFranklin-Bold'),
+        url('../../assets/fonts/LibreFranklin-Bold.ttf') format('ttf'),
+        url('../../assets/fonts/LibreFranklin-Bold.woff') format('woff'),
+        url('../../assets/fonts/LibreFranklin-Bold.woff2') format('woff2');
+}
+/* SourceSerifPro */
+@font-face {
+    font-family: "SourceSerifPro";
+    font-style: normal;
+    font-weight: 400;
+    src: local('SourceSerifPro-Regular'),
+        url('../../assets/fonts/SourceSerifPro-Regular.ttf') format('ttf'),
+        url('../../assets/fonts/SourceSerifpro-regular-webfont.woff') format('woff'),
+        url('../../assets/fonts/SourceSerifpro-regular-webfont.woff2') format('woff2');
+}
+/* TenorSansRegular */
+@font-face {
+    font-family: "TenorSansRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local('TenorSans-Regular'),
+        url('../../assets/fonts/TenorSans-Regular.ttf') format('ttf'),
+        url('../../assets/fonts/Tenorsans-regular-webfont.woff') format('woff'),  
+        url('../../assets/fonts/Tenorsans-regular-webfont.woff2') format('woff2');
+}
