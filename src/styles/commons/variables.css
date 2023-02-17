@@ -1,0 +1,11 @@
+/* переменные цветов */
+:root {
+  --color-text-gray-main: #999;
+  --color-text-gray-second: #666;
+  --color-main-dark: #000;
+  --color-main-light: #fff;
+  --color-hr: #e6e6e6;
+  --color-footer-hr: #4d4d4d;
+  --color-border-input: #ccc;
+  --color-footer-bg: #141414;
+}
