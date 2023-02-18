@@ -2,9 +2,6 @@
 
 body {
   background-color: black;
-  /* общий стиль шрифта */
-  font-family: var(--fonts-libreFranklin);
-  font-weight: 400;
 }
 
 h1 {
