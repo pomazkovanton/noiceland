@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('TenorSans-Regular'),
-        url('../../assets/fonts/TenorSans-Regular.ttf') format('ttf'),
-        url('../../assets/fonts/Tenorsans-regular-webfont.woff') format('woff'),  
-        url('../../assets/fonts/Tenorsans-regular-webfont.woff2') format('woff2');
+        url('../../assets/fonts/Tenorsans-regular-webfont.woff2') format('woff2'),
+        url('../../assets/fonts/Tenorsans-regular-webfont.woff') format('woff');
+        
 }
