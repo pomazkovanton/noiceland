@@ -1,7 +1,7 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
 
-/* Подключил ссылки */
+/* подключил ссылки */
 @import url("../../components/UI/link/link.css");
 @import url("../../components/UI/link/_dark/link_dark.css");
 @import url("../../components/UI/link/_button/link_button.css");
