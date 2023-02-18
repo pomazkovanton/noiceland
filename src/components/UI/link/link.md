@@ -6,13 +6,14 @@
  - link-white - модификатор для футера
  - link-button - модификатор для сылочной кнопки
 
-```<a class="link" href="#">...</a>```<br>
-```<a class="link" href="#">...</a>```<br>
-```<a class="link" href="#">...</a>```<br>
+```<a class="link ..." href="#">...</a>```<br>
+```<a class="link ..." href="#">...</a>```<br>
+```<a class="link ..." href="#">...</a>```<br>
 
 ---
 <!-- так же вы можете использовать кнопку -->
  - button - базовый класс кнопки 
  - button-center - модификатор центральной кнопки
-
-```<button class="button">...</button>```
+ - button-footer - модификатор белой футер кнопки
+ - button-dark - модификатор темной футер кнопки
+```<button class="button ...">...</button>```
