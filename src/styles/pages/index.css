@@ -10,3 +10,5 @@
 /* подключил кнопку */
 @import url("../../components/UI/button/button.css");
 @import url("../../components/UI/button/_center/button_center.css");
+@import url("../../components/UI/button/_footer/button_footer.css");
+@import url("../../components/UI/button/_dark/button_dark.css");
