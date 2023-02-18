@@ -8,4 +8,8 @@
   --color-footer-hr: #4d4d4d;
   --color-border-input: #ccc;
   --color-footer-bg: #141414;
+  /* переменные шрифтов */
+  --fonts-libreFranklin: "LibreFranklin", sans-serif;
+  --fonts-sourcePro: "SourceSerifPro", sans-serif;
+  --fonts-tenorSans: "TenorSansRegular", sans-serif;
 }
