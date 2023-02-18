@@ -1,16 +1,12 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
 
-body {
-  background-color: black;
-}
+/* Подключил ссылки */
+@import url("../../components/UI/link/link.css");
+@import url("../../components/UI/link/_dark/link_dark.css");
+@import url("../../components/UI/link/_button/link_button.css");
+@import url("../../components/UI/link/_white/link_white.css");
 
-h1 {
-  display: block;
-
-  max-width: 245px;
-  margin: auto;
-
-  font-size: 25px;
-  color: var(--color-text-gray-main);
-}
+/* подключил кнопку */
+@import url("../../components/UI/button/button.css");
+@import url("../../components/UI/button/_center/button_center.css");

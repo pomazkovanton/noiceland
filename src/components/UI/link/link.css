@@ -1,0 +1,19 @@
+.link {
+  display: inline-block;
+
+  width: 100%;
+
+  font-family: var(--fonts-libre-franklin);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+
+  transition: all 0.5s;
+}
+
+.link:hover {
+  transform: scale(1.13);
+  opacity: 0.6;
+}

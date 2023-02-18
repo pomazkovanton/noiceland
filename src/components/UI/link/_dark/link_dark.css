@@ -1,0 +1,4 @@
+.link-dark {
+  color: var(--color-main-dark);
+  text-decoration: none;
+}
