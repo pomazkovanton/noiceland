@@ -1,14 +1,11 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
 
-/* подключил ссылки */
+/* подключил стили ссылки */
 @import url("../../components/UI/link/link.css");
-@import url("../../components/UI/link/_dark/link_dark.css");
-@import url("../../components/UI/link/_button/link_button.css");
-@import url("../../components/UI/link/_white/link_white.css");
+@import url("../../components/UI/link/_color/link_color_dark.css");
+@import url("../../components/UI/link/_color/link_color_white.css");
 
-/* подключил кнопку */
-@import url("../../components/UI/button/button.css");
-@import url("../../components/UI/button/_center/button_center.css");
-@import url("../../components/UI/button/_footer/button_footer.css");
-@import url("../../components/UI/button/_dark/button_dark.css");
+div {
+  width: 300px;
+}
