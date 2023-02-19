@@ -5,7 +5,3 @@
 @import url("../../components/UI/link/link.css");
 @import url("../../components/UI/link/_color/link_color_dark.css");
 @import url("../../components/UI/link/_color/link_color_white.css");
-
-div {
-  width: 300px;
-}
