@@ -1,7 +1,4 @@
-.text__theme {
-  margin: 0;
-  padding: 0;
-
+.text_type_theme {
   font-family: var(--fonts-libreFranklin);
   font-size: 10px;
   font-weight: 400;

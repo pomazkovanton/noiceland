@@ -1,7 +1,4 @@
-.text__author {
-  margin: 0;
-  padding: 0;
-
+.text_type_author {
   font-family: var(--fonts-libreFranklin);
   font-size: 10px;
   font-weight: 700;
