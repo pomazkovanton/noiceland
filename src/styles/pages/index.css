@@ -1,8 +1,10 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
+
+/* подключение стилей для текста */
 @import url("../../components/UI/text/text.css");
-@import url("../../components/UI/text/_type/_author/text_type_author.css");
-@import url("../../components/UI/text/_type/_paragraph/text_type_paragraph.css");
-@import url("../../components/UI/text/_type/_subtitle/text_type_subtitle.css");
-@import url("../../components/UI/text/_type/_theme/text_type_theme.css");
-@import url("../../components/UI/text/_type/_title/text_type_title.css");
+@import url("../../components/UI/text/_type/text_type_author.css");
+@import url("../../components/UI/text/_type/text_type_paragraph.css");
+@import url("../../components/UI/text/_type/text_type_subtitle.css");
+@import url("../../components/UI/text/_type/text_type_theme.css");
+@import url("../../components/UI/text/_type/text_type_title.css");
