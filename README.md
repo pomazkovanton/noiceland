@@ -12,6 +12,7 @@ _Одностраничный сайт созданный с помощью_
 - ✨ [Иванна Баланюк](https://github.com/IvannaBalanyuk)
 - ✨ [Алексей Крутяков](https://github.com/arctikbear)
 - ✨ [Андрей Петров](https://github.com/petrov-andrey-dev)
+- ✨ [Андрей Колотыгин](https://github.com/Kolotygin57)
 
 ## Ссылка на проект 
 https://github.com/pomazkovanton/noiceland
