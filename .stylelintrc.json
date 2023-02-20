@@ -1,13 +1,11 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-prettier",
-    "stylelint-config-clean-order"
-  ],
-  "plugins": [
-    "stylelint-order"
-  ],
-  "ignoreFiles": [
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier", "stylelint-config-clean-order"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "selector-class-pattern": null,
+    "custom-property-pattern": null
+  },
+   "ignoreFiles": [
     "src/styles/vendor/*.css"
   ]
 }

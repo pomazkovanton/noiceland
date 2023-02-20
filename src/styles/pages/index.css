@@ -2,16 +2,7 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
 
-body {
-  background-color: black;
-}
-
-h1 {
-  display: block;
-
-  max-width: 245px;
-  margin: auto;
-
-  font-size: 25px;
-  color: var(--color-text-gray-main);
-}
+/* подключил стили ссылки */
+@import url("../../components/UI/link/link.css");
+@import url("../../components/UI/link/_color/link_color_dark.css");
+@import url("../../components/UI/link/_color/link_color_light.css");
