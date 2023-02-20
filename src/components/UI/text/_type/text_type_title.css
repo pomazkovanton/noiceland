@@ -1,0 +1,7 @@
+.text_type_title {
+  font-family: var(--fonts-tenorSans);
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--color-main-dark);
+  text-transform: uppercase;
+}

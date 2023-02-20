@@ -2,7 +2,15 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
 
-/* подключил стили ссылки */
+/* подключение стилей для текста */
+@import url("../../components/UI/text/text.css");
+@import url("../../components/UI/text/_type/text_type_author.css");
+@import url("../../components/UI/text/_type/text_type_paragraph.css");
+@import url("../../components/UI/text/_type/text_type_subtitle.css");
+@import url("../../components/UI/text/_type/text_type_theme.css");
+@import url("../../components/UI/text/_type/text_type_title.css");
+
+/* подключение стилей для ссылки */
 @import url("../../components/UI/link/link.css");
 @import url("../../components/UI/link/_color/link_color_dark.css");
 @import url("../../components/UI/link/_color/link_color_light.css");
