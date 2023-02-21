@@ -2,6 +2,7 @@
 @import url("../commons/fonts.css");
 @import url("../commons/variables.css");
 
+/* подключение стилей для UI компонентов*/
 /* подключение стилей для текста */
 @import url("../../components/UI/text/text.css");
 @import url("../../components/UI/text/_type/text_type_author.css");
@@ -14,6 +15,11 @@
 @import url("../../components/UI/link/link.css");
 @import url("../../components/UI/link/_color/link_color_dark.css");
 @import url("../../components/UI/link/_color/link_color_light.css");
+
+/* подключение стилей для логотипа */
+@import url("../../components/UI/logo/logo.css");
+@import url("../../components/UI/logo/_theme/logo_theme_light.css");
+@import url("../../components/UI/logo/_theme/logo_theme_dark.css");
 
 /* подключение стилей для формы */
 @import url("../../components/form/form.css");
