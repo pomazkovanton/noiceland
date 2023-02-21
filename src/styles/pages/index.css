@@ -14,3 +14,8 @@
 @import url("../../components/UI/link/link.css");
 @import url("../../components/UI/link/_color/link_color_dark.css");
 @import url("../../components/UI/link/_color/link_color_light.css");
+
+/* подключение стилей для логотипа */
+@import url("../../components/UI/logo/logo.css");
+@import url("../../components/UI/logo/_place/logo_place_header.css");
+@import url("../../components/UI/logo/_place/logo_place_footer.css");
