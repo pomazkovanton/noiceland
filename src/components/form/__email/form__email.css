@@ -1,8 +1,11 @@
 .form__email {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 214px;
   margin: 0;
-  padding: 18px 24px;
+  padding: 0 24px;
 
   background: var(--color-main-light);
   border: 1px solid var(--color-border-input);
-  border-radius: none;
+  border-radius: 0;
 }
