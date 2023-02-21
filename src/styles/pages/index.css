@@ -17,5 +17,5 @@
 
 /* подключение стилей для логотипа */
 @import url("../../components/UI/logo/logo.css");
-@import url("../../components/UI/logo/_place/logo_place_header.css");
-@import url("../../components/UI/logo/_place/logo_place_footer.css");
+@import url("../../components/UI/logo/_theme/logo_theme_light.css");
+@import url("../../components/UI/logo/_theme/logo_theme_dark.css");
