@@ -35,6 +35,5 @@
 @import url("../../components/UI/header/__logo-link/header__logo-link.css");
 @import url("../../components/UI/header/__menu/header__menu.css");
 
-:root {
-  background-color: var(--color-hr);
-}
+/* подключение стилей для линий */
+@import url("../../components/UI/line/line.css");
