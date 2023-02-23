@@ -1,0 +1,34 @@
+@import url("../vendor/normalize.css");
+@import url("../commons/fonts.css");
+@import url("../commons/variables.css");
+
+/* подключение стилей для UI компонентов */
+
+/* подключение стилей для текста */
+@import url("../../components/UI/text/text.css");
+@import url("../../components/UI/text/_type/text_type_author.css");
+@import url("../../components/UI/text/_type/text_type_paragraph.css");
+@import url("../../components/UI/text/_type/text_type_subtitle.css");
+@import url("../../components/UI/text/_type/text_type_theme.css");
+@import url("../../components/UI/text/_type/text_type_title.css");
+
+/* подключение стилей для ссылки */
+@import url("../../components/UI/link/link.css");
+@import url("../../components/UI/link/_color/link_color_dark.css");
+@import url("../../components/UI/link/_color/link_color_light.css");
+
+/* подключение стилей для логотипа */
+@import url("../../components/UI/logo/logo.css");
+@import url("../../components/UI/logo/_theme/logo_theme_light.css");
+@import url("../../components/UI/logo/_theme/logo_theme_dark.css");
+
+/* подключение стилей для формы */
+@import url("../../components/form/form.css");
+@import url("../../components/form/__email/form__email.css");
+@import url("../../components/form/__button/form__button.css");
+
+/* подключение стилей для шапки */
+@import url("../../components/header/header.css");
+@import url("../../components/header/__container/header__container.css");
+@import url("../../components/header/__logo-link/header__logo-link.css");
+@import url("../../components/header/__menu/header__menu.css");

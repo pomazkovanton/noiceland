@@ -1,0 +1,34 @@
+/* LibreFranklin */
+@font-face {
+  font-family: LibreFranklin;
+  font-weight: 400;
+  font-style: normal;
+  src: local("LibreFranklin-Regular"), url("../../assets/fonts/LibreFranklin-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/LibreFranklin-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: LibreFranklin;
+  font-weight: 700;
+  font-style: bold;
+  src: local("LibreFranklin-Bold"), url("../../assets/fonts/LibreFranklin-Bold.woff2") format("woff2"),
+    url("../../assets/fonts/LibreFranklin-Bold.woff") format("woff");
+}
+
+/* SourceSerifPro */
+@font-face {
+  font-family: SourceSerifPro;
+  font-weight: 400;
+  font-style: normal;
+  src: local("SourceSerifPro-Regular"), url("../../assets/fonts/SourceSerifpro-regular-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/SourceSerifpro-regular-webfont.woff") format("woff");
+}
+
+/* TenorSansRegular */
+@font-face {
+  font-family: TenorSansRegular;
+  font-weight: 400;
+  font-style: normal;
+  src: local("TenorSans-Regular"), url("../../assets/fonts/Tenorsans-regular-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/Tenorsans-regular-webfont.woff") format("woff");
+}
