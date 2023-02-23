@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 100vw;
+
+  /* Добавлен 1px для border-bottom */
+  min-height: 91px;
+
+  background-color: var(--color-main-light);
+  border-bottom: 1px solid var(--color-hr);
+}

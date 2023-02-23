@@ -27,13 +27,8 @@
 @import url("../../components/form/__email/form__email.css");
 @import url("../../components/form/__button/form__button.css");
 
-/* подключение стилей для body */
-@import url("../../components/UI/page/page.css");
-
 /* подключение стилей для шапки */
-@import url("../../components/UI/header/header.css");
-@import url("../../components/UI/header/__logo-link/header__logo-link.css");
-@import url("../../components/UI/header/__menu/header__menu.css");
-
-/* подключение стилей для линий */
-@import url("../../components/UI/line/line.css");
+@import url("../../components/header/header.css");
+@import url("../../components/header/__container/header__container.css");
+@import url("../../components/header/__logo-link/header__logo-link.css");
+@import url("../../components/header/__menu/header__menu.css");
