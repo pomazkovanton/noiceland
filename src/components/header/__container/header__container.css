@@ -1,0 +1,16 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 100%;
+
+  /* Минимальная ширина задана из расчета, чтобы можно было уменьшить ширину окна до 3 карточек в ряд в разделе LATEST POSTS */
+  min-width: 1140px;
+
+  /* Максимальная ширина - 1400px (базовая ширина по макету) + 240px (отступы слева и справа по 120). Чтобы страница не тянулась шире, чем по макету. */
+  max-width: 1640px;
+  height: inherit;
+  padding: 0 120px;
+}
