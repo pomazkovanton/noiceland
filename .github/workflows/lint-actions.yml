@@ -1,0 +1,22 @@
+name: Lint action
+on:
+  pull_request:
+    branches: [ develop ]
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-varsion: [ 16.x ]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Staring Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: install modules
+        run: npm install
+      - name: format code
+        run: npm run format:fix
+      - name: lint styles
+        run: npm run lint:fix
