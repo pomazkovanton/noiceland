@@ -10,7 +10,7 @@
     "prepare": "husky install",
     "format": "npx prettier src --check",
     "format:fix": "npm run format -- --write",
-    "lint": "stylelint src",
+    "lint": "stylelint src/**/*.css",
     "lint:fix": "npm run lint -- --fix",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
