@@ -35,3 +35,4 @@
 
 /* подключение стилей для кнопок */
 @import url("../../components/UI/button/button.css");
+@import url("../../components/UI/button/_scale-font-size/button_scale-font-size.css");
