@@ -32,3 +32,7 @@
 @import url("../../components/header/__container/header__container.css");
 @import url("../../components/header/__logo-link/header__logo-link.css");
 @import url("../../components/header/__menu/header__menu.css");
+
+/* подключение стилей для кнопок */
+@import url("../../components/UI/button/button.css");
+@import url("../../components/UI/button/_scale-font-size/button_scale-font-size.css");
