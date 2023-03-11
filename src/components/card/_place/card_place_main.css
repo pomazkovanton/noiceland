@@ -1,12 +1,5 @@
 .card_place_main {
+  flex-flow: row wrap;
   gap: 50px;
   max-width: 1200px;
-  margin: auto;
-}
-
-@media screen and (max-width: 1008px) {
-  .card_place_main {
-    flex-direction: column;
-    max-width: 700px;
-  }
 }

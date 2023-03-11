@@ -1,6 +1,6 @@
 .card__picture {
   width: 100%;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
 }
