@@ -1,0 +1,5 @@
+.card_place_main {
+  flex-flow: row wrap;
+  gap: 50px;
+  max-width: 1200px;
+}
