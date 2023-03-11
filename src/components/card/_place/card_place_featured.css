@@ -1,0 +1,4 @@
+.card_place_featured {
+  flex-direction: column;
+  max-width: 610px;
+}
