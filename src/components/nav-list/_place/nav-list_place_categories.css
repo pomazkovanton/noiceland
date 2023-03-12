@@ -1,11 +1,5 @@
 .nav-list_place_categories {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 197px);
+  grid-template-columns: repeat(4, auto);
   row-gap: 15px;
-
-  max-width: 788px;
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
 }

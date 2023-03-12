@@ -1,5 +1,5 @@
 .nav-list {
-  display: flex;
-  flex-direction: column;
-  background: var(--color-footer-bg);
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
