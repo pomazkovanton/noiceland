@@ -1,5 +1,5 @@
 .nav-list_place_categories {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  row-gap: 15px;
+  grid-gap: 15px 25px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
