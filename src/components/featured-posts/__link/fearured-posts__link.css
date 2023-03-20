@@ -1,0 +1,11 @@
+.featured-posts__link {
+  line-height: 0;
+  text-decoration:none;
+  transition: all .5s ease-out;
+}
+
+.featured-posts__link:hover {
+  cursor: pointer;
+  opacity: .8;
+  transform: translate(0, -3px);
+}

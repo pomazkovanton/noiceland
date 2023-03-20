@@ -32,3 +32,14 @@
 @import url("../../components/header/__container/header__container.css");
 @import url("../../components/header/__logo-link/header__logo-link.css");
 @import url("../../components/header/__menu/header__menu.css");
+
+/* подключение стилей для блока рекомендованных постов */
+@import url("../../components/featured-posts/featured-posts.css");
+@import url("../../components/featured-posts/__title/featured-posts__title.css");
+@import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
+@import url("../../components/featured-posts/__link/fearured-posts__link.css");
+@import url("../../components/featured-posts/__post/featured-posts__post.css");
+@import url("../../components/featured-posts/__image/featured-posts__image.css");
+@import url("../../components/featured-posts/__theme/featured-posts__theme.css");
+@import url("../../components/featured-posts/__subtitle/featured-posts__subtitle.css");
+@import url("../../components/featured-posts/__author/featured-posts__author.css");

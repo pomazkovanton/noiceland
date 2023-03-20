@@ -1,0 +1,9 @@
+.featured-posts__author {
+  padding: 15px 0 49px;
+}
+
+.featured-posts__author::before {
+  content: "by";
+  padding-right: 5px;
+  text-transform: uppercase;
+}

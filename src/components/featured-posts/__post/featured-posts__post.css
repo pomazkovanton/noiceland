@@ -1,0 +1,4 @@
+.featured-posts__post {
+  display: flex;
+  flex-direction: column;
+}
