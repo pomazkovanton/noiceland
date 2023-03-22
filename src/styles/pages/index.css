@@ -33,6 +33,9 @@
 @import url("../../components/header/__logo-link/header__logo-link.css");
 @import url("../../components/header/__menu/header__menu.css");
 
+/* подключение основного блока с контентом */
+@import url("../../components/content/content.css");
+
 /* подключение стилей для блока рекомендованных постов */
 @import url("../../components/featured-posts/featured-posts.css");
 @import url("../../components/featured-posts/__title/featured-posts__title.css");
