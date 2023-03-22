@@ -1,9 +1,8 @@
 .featured-posts__gallery {
   column-gap: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, 590px));
-  justify-content: center;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
   padding: 5px 0 0;
-  list-style: none;
+  list-style-type: none;
 }
