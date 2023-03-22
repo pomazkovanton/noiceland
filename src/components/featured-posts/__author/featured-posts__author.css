@@ -1,9 +1,3 @@
 .featured-posts__author {
   margin: 15px 0 0;
 }
-
-.featured-posts__author::before {
-  content: "by";
-  padding-right: 5px;
-  text-transform: uppercase;
-}
