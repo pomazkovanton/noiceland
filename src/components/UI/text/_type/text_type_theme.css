@@ -1,5 +1,5 @@
 .text_type_theme {
-  font-family: var(--fonts-libreFranklin);
+  font-family: var(--fonts-libre-franklin);
   font-size: 10px;
   line-height: 12px;
   color: var(--color-text-gray-main);

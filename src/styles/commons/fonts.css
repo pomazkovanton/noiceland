@@ -20,7 +20,7 @@
   font-family: SourceSerifPro;
   font-weight: 400;
   font-style: normal;
-  src: local("SourceSerifPro-Regular"), url("../../assets/fonts/SourceSerifpro-regular-webfont.woff2") format("woff2"),
+  src: local("SourceSerifpro-regular-webfont"), url("../../assets/fonts/SourceSerifpro-regular-webfont.woff2") format("woff2"),
     url("../../assets/fonts/SourceSerifpro-regular-webfont.woff") format("woff");
 }
 

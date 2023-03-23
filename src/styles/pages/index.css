@@ -46,3 +46,5 @@
 @import url("../../components/featured-posts/__theme/featured-posts__theme.css");
 @import url("../../components/featured-posts/__subtitle/featured-posts__subtitle.css");
 @import url("../../components/featured-posts/__author/featured-posts__author.css");
+/* подключение стилей для кнопок */
+@import url("../../components/UI/button/button.css");
