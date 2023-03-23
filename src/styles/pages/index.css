@@ -57,10 +57,6 @@
 @import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
 @import url("../../components/featured-posts/__link/fearured-posts__link.css");
 @import url("../../components/featured-posts/__post/featured-posts__post.css");
-@import url("../../components/featured-posts/__image/featured-posts__image.css");
-@import url("../../components/featured-posts/__theme/featured-posts__theme.css");
-@import url("../../components/featured-posts/__subtitle/featured-posts__subtitle.css");
-@import url("../../components/featured-posts/__author/featured-posts__author.css");
 
 /* подключение стилей для кнопок */
 @import url("../../components/UI/button/button.css");
