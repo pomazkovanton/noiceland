@@ -1,0 +1,9 @@
+.featured-posts__gallery {
+  margin: 0;
+  column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 5px 0 0;
+  list-style: none;
+}

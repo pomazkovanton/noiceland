@@ -33,5 +33,30 @@
 @import url("../../components/header/__logo-link/header__logo-link.css");
 @import url("../../components/header/__menu/header__menu.css");
 
+/* подключение стилей для карточек постов */
+@import url("../../components/card/card.css");
+@import url("../../components/card/__info-box/card__info-box.css");
+@import url("../../components/card/__info-box/_place/card__info-box_place_main.css");
+@import url("../../components/card/__paparagraph/card__paparagraph.css");
+@import url("../../components/card/__picture/card__picture.css");
+@import url("../../components/card/__picture/_place/card__picture_place_current.css");
+@import url("../../components/card/__picture/_place/card__picture_place_featured.css");
+@import url("../../components/card/__picture/_place/card__picture_place_latest.css");
+@import url("../../components/card/__picture/_place/card__picture_place_main.css");
+@import url("../../components/card/__subtitle/card__subtitle.css");
+@import url("../../components/card/__theme/card__theme.css");
+@import url("../../components/card/__title/card__title.css");
+@import url("../../components/card/_place/card_place_current.css");
+@import url("../../components/card/_place/card_place_featured.css");
+@import url("../../components/card/_place/card_place_latest.css");
+@import url("../../components/card/_place/card_place_main.css");
+
+/* подключение стилей для блока рекомендованных постов */
+@import url("../../components/featured-posts/featured-posts.css");
+@import url("../../components/featured-posts/__title/featured-posts__title.css");
+@import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
+@import url("../../components/featured-posts/__link/fearured-posts__link.css");
+@import url("../../components/featured-posts/__post/featured-posts__post.css");
+
 /* подключение стилей для кнопок */
 @import url("../../components/UI/button/button.css");
