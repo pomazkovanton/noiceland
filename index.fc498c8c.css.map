@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["src/pages/index.css"],"sourcesContent":["body {\r\n  background-color: black;\r\n}\r\n\r\nh1 {\r\n  display: block;\r\n\r\n  max-width: 245px;\r\n  margin: auto;\r\n\r\n  font-size: 25px;\r\n  color: blue;\r\n}\r\n"],"names":[],"version":3,"file":"index.fc498c8c.css.map","sourceRoot":"/__parcel_source_root/"}
