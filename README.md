@@ -1,10 +1,17 @@
 # Noiceland
 
-_Одностраничный сайт созданный с помощью_
-![HTML5](https://img.shields.io/badge/-HTML5-011?&logo=HTML5)
-![CSS3](https://img.shields.io/badge/-CSS3-011?&logo=CSS3)
+Одночастичный сайт с постами о путешествиях по северным странам. Выполненный с помощью HTML и CSS. 
 
-## Работу выполнили:
+<div style="display: flex; gap: 50px">
+
+<div>
+  <h2>Используемые технологии:</h2>
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/a50fa57465e82a1147fa512fb3d64cc5902df578/icons/CSS.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/a50fa57465e82a1147fa512fb3d64cc5902df578/icons/HTML.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+</div>
+
+<div>
+<h2>Работу выполнили:</h2>
 
 - ⭐️ [Антон Помазков](https://github.com/pomazkovanton)
 - ✨ [Сергей Трифонов](https://github.com/P1xelST)
@@ -13,15 +20,5 @@ _Одностраничный сайт созданный с помощью_
 - ✨ [Алексей Крутяков](https://github.com/AlexeyKrutiakov)
 - ✨ [Андрей Петров](https://github.com/petrov-andrey-dev)
 - ✨ [Андрей Колотыгин](https://github.com/Kolotygin57)
-
-## Ссылка на проект
-
-https://github.com/pomazkovanton/noiceland
-
-![image](https://noicelandproject.netlify.app/img/header_img.png)
-
-## _Используемые технологии:_
-
-![Node.js](https://img.shields.io/badge/-Node.js-011?&logo=node.js)
-![GIT](https://img.shields.io/badge/-GIT-011?&logo=GIT)
-![Figma](https://img.shields.io/badge/-Figma-011?&logo=Figma)
+</div>
+</div>
