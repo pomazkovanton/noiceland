@@ -60,3 +60,6 @@
 
 /* подключение стилей для кнопок */
 @import url("../../components/UI/button/button.css");
+
+/* подключение стилей для подвала сайта */
+@import url("../../components/footer/footer.css");
