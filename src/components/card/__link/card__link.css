@@ -1,0 +1,11 @@
+.card__link {
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.card__link:hover {
+  cursor: pointer;
+  transform: translate(0, -3px);
+  opacity: 0.8;
+}

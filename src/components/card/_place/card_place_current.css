@@ -1,3 +1,10 @@
 .card_place_current {
-  max-width: 407px;
+  max-width: calc(1220px / 3);
+  padding: 25px 10px;
+}
+
+@media screen and (max-width: 1270px) {
+  .card_place_current {
+    max-width: 100%;
+  }
 }
