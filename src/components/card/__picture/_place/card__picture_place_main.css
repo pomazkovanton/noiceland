@@ -2,3 +2,10 @@
   max-width: 721px;
   max-height: 474px;
 }
+
+@media screen and (max-width: 1270px) {
+  .card__picture_place_main {
+    max-width: 100%;
+    max-height: none;
+  }
+}

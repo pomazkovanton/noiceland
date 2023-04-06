@@ -50,13 +50,22 @@
 @import url("../../components/card/_place/card_place_featured.css");
 @import url("../../components/card/_place/card_place_latest.css");
 @import url("../../components/card/_place/card_place_main.css");
+@import url("../../components/card/__link/card__link.css");
+@import url("../../components/card/__link/_place/card__link_place_main.css");
 
 /* подключение стилей для блока рекомендованных постов */
 @import url("../../components/featured-posts/featured-posts.css");
 @import url("../../components/featured-posts/__title/featured-posts__title.css");
 @import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
-@import url("../../components/featured-posts/__link/fearured-posts__link.css");
 @import url("../../components/featured-posts/__post/featured-posts__post.css");
 
 /* подключение стилей для кнопок */
 @import url("../../components/UI/button/button.css");
+
+/* подключение стилей для секции hero */
+@import url("../../components/hero/hero.css");
+@import url("../../components/hero/__list/hero__list.css");
+@import url("../../components/hero/__item/hero__item.css");
+
+/* подключение стилей для блока-контейнера */
+@import url("../../components/container/container.css");
