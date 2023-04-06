@@ -62,3 +62,6 @@
 
 /* подключение стилей для кнопок */
 @import url("../../components/UI/button/button.css");
+
+/* подключение стилей для блока-контейнера */
+@import url("../../components/container/container.css");
