@@ -4,6 +4,9 @@
 
 /* подключение стилей для UI компонентов */
 
+/* подключение стилей для прокрутки страницы */
+@import url("../../components/UI/overflow/overflow.css");
+
 /* подключение стилей для текста */
 @import url("../../components/UI/text/text.css");
 @import url("../../components/UI/text/_type/text_type_author.css");
@@ -32,6 +35,7 @@
 @import url("../../components/header/__container/header__container.css");
 @import url("../../components/header/__logo-link/header__logo-link.css");
 @import url("../../components/header/__nav/header__nav.css");
+@import url("../../components/header/__nav/_opened/header__nav_opened.css");
 @import url("../../components/header/__nav-list/header__nav-list.css");
 @import url("../../components/header/__nav-link/header__nav-link.css");
 @import url("../../components/header/__nav-btn/header__nav-btn.css");
