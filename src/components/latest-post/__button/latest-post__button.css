@@ -1,0 +1,10 @@
+.latest-post__button {
+  max-width: 205px;
+  margin: 65px auto 0;
+}
+
+@media screen and (max-width: 657px) {
+  .latest-post__button {
+    max-width: 80%;
+  }
+}
