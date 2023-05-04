@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .header__nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+
+    background-color: #fff;
+
+    transition: transform 0.2s;
+  }
+}

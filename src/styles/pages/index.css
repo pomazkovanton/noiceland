@@ -4,6 +4,9 @@
 
 /* подключение стилей для UI компонентов */
 
+/* подключение стилей для прокрутки страницы */
+@import url("../../components/UI/overflow/overflow.css");
+
 /* подключение стилей для текста */
 @import url("../../components/UI/text/text.css");
 @import url("../../components/UI/text/_type/text_type_author.css");
@@ -31,7 +34,15 @@
 @import url("../../components/header/header.css");
 @import url("../../components/header/__container/header__container.css");
 @import url("../../components/header/__logo-link/header__logo-link.css");
-@import url("../../components/header/__menu/header__menu.css");
+@import url("../../components/header/__nav/header__nav.css");
+@import url("../../components/header/__nav/_opened/header__nav_opened.css");
+@import url("../../components/header/__nav-list/header__nav-list.css");
+@import url("../../components/header/__nav-link/header__nav-link.css");
+@import url("../../components/header/__nav-btn/header__nav-btn.css");
+@import url("../../components/header/__nav-ico-menu/header__nav-ico-menu.css");
+@import url("../../components/header/__nav-ico-menu/_show/header__nav-ico-menu_show.css");
+@import url("../../components/header/__nav-ico-cross/header__nav-ico-cross.css");
+@import url("../../components/header/__nav-ico-cross/_show/header__nav-ico-cross_show.css");
 
 /* подключение стилей для карточек постов */
 @import url("../../components/card/card.css");

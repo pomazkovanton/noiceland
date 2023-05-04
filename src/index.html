@@ -27,9 +27,9 @@
     <title>Noiceland - Photography | Architecture | Design</title>
   </head>
 
-  <body>
+  <body class="page">
     <header class="header">
-      <div class="header__container">
+      <div class="container header__container">
         <a class="header__logo-link">
           <svg class="logo logo_theme_light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 17">
             <path
@@ -39,16 +39,20 @@
             />
           </svg>
         </a>
-        <nav>
-          <ul class="header__menu">
+        <button class="header__nav-btn" type="button" aria-label="Открыть / Закрыть меню">
+          <span class="header__nav-ico-menu header__nav-ico-menu_show"></span>
+          <span class="header__nav-ico-cross"></span>
+        </button>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
             <li>
-              <a class="link link_color_dark" href="#">Home</a>
+              <a class="header__nav-link link link_color_dark" href="#">Home</a>
             </li>
             <li>
-              <a class="link link_color_dark" href="#">Latest</a>
+              <a class="header__nav-link link link_color_dark" href="#">Latest</a>
             </li>
             <li>
-              <a class="link link_color_dark" href="#">About</a>
+              <a class="header__nav-link link link_color_dark" href="#">About</a>
             </li>
           </ul>
         </nav>
@@ -413,5 +417,6 @@
         </ul>
       </section>
     </main>
+    <script src="./scripts/header.js"></script>
   </body>
 </html>

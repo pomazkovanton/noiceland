@@ -1,0 +1,26 @@
+.header__nav-ico-cross {
+  position: relative;
+  display: none;
+}
+
+.header__nav-ico-cross::after,
+.header__nav-ico-cross::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 26px;
+  height: 2px;
+
+  background-color: var(--color-main-dark);
+}
+
+.header__nav-ico-cross::after {
+  transform: translate(-50%, 0) rotate(-45deg);
+}
+
+.header__nav-ico-cross::before {
+  transform: translate(-50%, 0) rotate(45deg);
+}
