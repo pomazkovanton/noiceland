@@ -67,5 +67,10 @@
 @import url("../../components/hero/__list/hero__list.css");
 @import url("../../components/hero/__item/hero__item.css");
 
+/* подключение стилей для секции latest-post */
+@import url("../../components/latest-post/latest-post.css");
+@import url("../../components/latest-post/__list/latest-post__list.css");
+@import url("../../components/latest-post/__button/latest-post__button.css");
+
 /* подключение стилей для блока-контейнера */
 @import url("../../components/container/container.css");
