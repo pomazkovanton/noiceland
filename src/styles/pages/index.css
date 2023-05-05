@@ -4,6 +4,9 @@
 
 /* подключение стилей для UI компонентов */
 
+/* подключение стилей для прокрутки страницы */
+@import url("../../components/UI/overflow/overflow.css");
+
 /* подключение стилей для текста */
 @import url("../../components/UI/text/text.css");
 @import url("../../components/UI/text/_type/text_type_author.css");
@@ -31,4 +34,54 @@
 @import url("../../components/header/header.css");
 @import url("../../components/header/__container/header__container.css");
 @import url("../../components/header/__logo-link/header__logo-link.css");
-@import url("../../components/header/__menu/header__menu.css");
+@import url("../../components/header/__nav/header__nav.css");
+@import url("../../components/header/__nav/_opened/header__nav_opened.css");
+@import url("../../components/header/__nav-list/header__nav-list.css");
+@import url("../../components/header/__nav-link/header__nav-link.css");
+@import url("../../components/header/__nav-btn/header__nav-btn.css");
+@import url("../../components/header/__nav-ico-menu/header__nav-ico-menu.css");
+@import url("../../components/header/__nav-ico-menu/_show/header__nav-ico-menu_show.css");
+@import url("../../components/header/__nav-ico-cross/header__nav-ico-cross.css");
+@import url("../../components/header/__nav-ico-cross/_show/header__nav-ico-cross_show.css");
+
+/* подключение стилей для карточек постов */
+@import url("../../components/card/card.css");
+@import url("../../components/card/__info-box/card__info-box.css");
+@import url("../../components/card/__info-box/_place/card__info-box_place_main.css");
+@import url("../../components/card/__paparagraph/card__paparagraph.css");
+@import url("../../components/card/__picture/card__picture.css");
+@import url("../../components/card/__picture/_place/card__picture_place_current.css");
+@import url("../../components/card/__picture/_place/card__picture_place_featured.css");
+@import url("../../components/card/__picture/_place/card__picture_place_latest.css");
+@import url("../../components/card/__picture/_place/card__picture_place_main.css");
+@import url("../../components/card/__subtitle/card__subtitle.css");
+@import url("../../components/card/__theme/card__theme.css");
+@import url("../../components/card/__title/card__title.css");
+@import url("../../components/card/_place/card_place_current.css");
+@import url("../../components/card/_place/card_place_featured.css");
+@import url("../../components/card/_place/card_place_latest.css");
+@import url("../../components/card/_place/card_place_main.css");
+@import url("../../components/card/__link/card__link.css");
+@import url("../../components/card/__link/_place/card__link_place_main.css");
+
+/* подключение стилей для блока рекомендованных постов */
+@import url("../../components/featured-posts/featured-posts.css");
+@import url("../../components/featured-posts/__title/featured-posts__title.css");
+@import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
+@import url("../../components/featured-posts/__post/featured-posts__post.css");
+
+/* подключение стилей для кнопок */
+@import url("../../components/UI/button/button.css");
+
+/* подключение стилей для секции hero */
+@import url("../../components/hero/hero.css");
+@import url("../../components/hero/__list/hero__list.css");
+@import url("../../components/hero/__item/hero__item.css");
+
+/* подключение стилей для секции latest-post */
+@import url("../../components/latest-post/latest-post.css");
+@import url("../../components/latest-post/__list/latest-post__list.css");
+@import url("../../components/latest-post/__button/latest-post__button.css");
+
+/* подключение стилей для блока-контейнера */
+@import url("../../components/container/container.css");

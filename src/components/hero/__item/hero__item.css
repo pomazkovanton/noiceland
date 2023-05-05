@@ -1,0 +1,15 @@
+.hero__item {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1270px) {
+  .hero__item:not(:first-child) {
+    flex: 1 0 50%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .hero__item:not(:first-child) {
+    flex-basis: 100%;
+  }
+}

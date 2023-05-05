@@ -2,7 +2,6 @@
   "name": "template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --open",
@@ -12,8 +11,8 @@
     "format:fix": "npm run format -- --write",
     "lint": "stylelint src/**/*.css",
     "lint:fix": "npm run lint -- --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "rm -rf dist && parcel build src/index.html --public-url /noiceland",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",

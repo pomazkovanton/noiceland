@@ -26,9 +26,10 @@
     <link rel="stylesheet" href="./styles/pages/index.css" />
     <title>Noiceland - Photography | Architecture | Design</title>
   </head>
-  <body>
+
+  <body class="page">
     <header class="header">
-      <div class="header__container">
+      <div class="container header__container">
         <a class="header__logo-link">
           <svg class="logo logo_theme_light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 17">
             <path
@@ -38,23 +39,384 @@
             />
           </svg>
         </a>
-        <nav>
-          <ul class="header__menu">
+        <button class="header__nav-btn" type="button" aria-label="Открыть / Закрыть меню">
+          <span class="header__nav-ico-menu header__nav-ico-menu_show"></span>
+          <span class="header__nav-ico-cross"></span>
+        </button>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
             <li>
-              <a class="link link_color_dark" href="#">Home</a>
+              <a class="header__nav-link link link_color_dark" href="#">Home</a>
             </li>
             <li>
-              <a class="link link_color_dark" href="#">Latest</a>
+              <a class="header__nav-link link link_color_dark" href="#">Latest</a>
             </li>
             <li>
-              <a class="link link_color_dark" href="#">About</a>
+              <a class="header__nav-link link link_color_dark" href="#">About</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <h1>Template</h1>
-    <h1>Template</h1>
-    <h1>Template</h1>
+    <main>
+      <section class="hero container">
+        <ul class="hero__list">
+          <li class="hero__item">
+            <article class="card card_place_main">
+              <a href="#" class="card__link card__link_place_main">
+                <img
+                  class="card__picture card__picture_place_main"
+                  src="./assets/images/hero-post-1.jpg"
+                  alt="Человек идет по в горы по снегу"
+                />
+                <div class="card__info-box card__info-box_place_main">
+                  <h3 class="text text_type_theme card__theme">Illustration</h3>
+                  <h1 class="text text_type_title card__title">
+                    Japan house opens in mountainside to foster peak creativity.
+                  </h1>
+                  <p class="text text_type_paragraph card__paparagraph">
+                    Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id
+                    eum, ferri novum molestie eos cu.
+                  </p>
+                  <p class="text text_type_author">By reta torphy</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="card card_place_current">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_current"
+                  src="./assets/images/hero-post-7.jpg"
+                  alt="Сноубордисты идут по горному лесу"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="card card_place_current">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_current"
+                  src="./assets/images/hero-post-6.jpg"
+                  alt="Заснежанная улица с фонорями"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="card card_place_current">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_current"
+                  src="./assets/images/hero-post-2.jpg"
+                  alt="Вечерняя зимняя улица"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="card card_place_current">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_current"
+                  src="./assets/images/hero-post-3.jpg"
+                  alt="Озеро среди горных вершин"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="card card_place_current">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_current"
+                  src="./assets/images/hero-post-4.jpg"
+                  alt="Дом заваленый снегом по среди леса"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="card card_place_current">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_current"
+                  src="./assets/images/hero-post-5.jpg"
+                  alt="Заснежанные горы"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="latest-post container">
+        <h2 class="text text_type_theme">Latest posts</h2>
+        <ul class="latest-post__list">
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-1.jpg"
+                  alt="Река посреди заснеженых гор"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-2.jpg"
+                  alt="Свечение из под снега"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-3.jpg"
+                  alt="Сосуки в горной пешере"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-4.jpg"
+                  alt="Город на берегу снежного моря"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-4.jpg"
+                  alt="Город на берегу снежного моря"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-6.jpg"
+                  alt="Старая церковь на берегу моря"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-7.jpg"
+                  alt="Снежные пики"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="latest-post__item">
+            <article class="card card_place_latest">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_latest"
+                  src="./assets/images/last-post-8.jpg"
+                  alt="Город на морском берегу по среди снежных гор"
+                />
+                <div class="card__info-box">
+                  <h3 class="text text_type_theme card__theme">Photography</h3>
+                  <h2 class="text text_type_subtitle card__subtitle">
+                    Helmut Lang celebrates taxi drivers worldwide in latest campaign
+                  </h2>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+        <button class="button latest-post__button">view all latest posts</button>
+      </section>
+      <section class="featured-posts container">
+        <h2 class="text text_type_theme featured-posts__title">Featured posts</h2>
+        <ul class="featured-posts__gallery">
+          <li>
+            <article class="card card_place_featured featured-posts__post">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_featured"
+                  src="../src/assets/images/large-card_1_onojeghuo.jpg"
+                  alt="View of a fragment of a football field in the penalty area from the upper stand"
+                />
+                <div class="card__info-box">
+                  <h4 class="text text_type_theme card__theme">Graphic Design</h4>
+                  <h3 class="text text_type_subtitle card__subtitle">A Brief History of the FIFA World Cup Logo</h3>
+                  <p class="text text_type_author">By Clem Onojeghuo</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="card card_place_featured featured-posts__post">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_featured"
+                  src="../src/assets/images/large-card_2_ortiz.jpg"
+                  alt="A man in a Vietnamese hat on a red inflatable goose in the pool"
+                />
+                <div class="card__info-box">
+                  <h4 class="text text_type_theme card__theme">Graphic Design</h4>
+                  <h3 class="text text_type_subtitle card__subtitle">
+                    Need a guide to LA’s graphic design scene? Shoplifters’ new issue has got your back
+                  </h3>
+                  <p class="text text_type_author">By Alessandra Ortiz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="card card_place_featured featured-posts__post">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_featured"
+                  src="../src/assets/images/large-card_3_gottlieb.jpg"
+                  alt="Footpath to the beach"
+                />
+                <div class="card__info-box">
+                  <h4 class="text text_type_theme card__theme">Photography</h4>
+                  <h3 class="text text_type_subtitle card__subtitle">Fred Rowson directs film for Years and Years</h3>
+                  <p class="text text_type_author">By Coby Gottlieb</p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="card card_place_featured featured-posts__post">
+              <a href="#" class="card__link">
+                <img
+                  class="card__picture card__picture_place_featured"
+                  src="../src/assets/images/large-card_4_lueilwitz.jpg"
+                  alt="Icebreaker sailed next to a large iceberg"
+                />
+                <div class="card__info-box">
+                  <h4 class="text text_type_theme card__theme">Illustration</h4>
+                  <h3 class="text text_type_subtitle card__subtitle">
+                    M&C Saatchi and Fontsmith collaborate on font collection for House of St Barnabas
+                  </h3>
+                  <p class="text text_type_author">By Annie Lueilwitz</p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./scripts/header.js"></script>
   </body>
 </html>
