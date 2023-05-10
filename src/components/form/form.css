@@ -1,7 +1,5 @@
 .form {
-  display: flex;
-
-  height: 48px;
+  min-width: 300px;
   margin: 0;
 
   font-family: var(--fonts-libre-franklin);

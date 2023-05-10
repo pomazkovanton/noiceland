@@ -7,6 +7,19 @@
 /* подключение стилей для прокрутки страницы */
 @import url("../../components/UI/overflow/overflow.css");
 
+/* подключение стилей для кнопок */
+@import url("../../components/UI/button/button.css");
+
+/* подключение стилей для блока-контейнера */
+@import url("../../components/container/container.css");
+
+/* подключение стилей для списка навигации */
+@import url("../../components/nav-list/nav-list.css");
+@import url("../../components/nav-list/__item/nav-list__item.css");
+@import url("../../components/nav-list/__item/_place/nav-list_place_information.css");
+@import url("../../components/nav-list/__title/nav-list__title.css");
+@import url("../../components/nav-list/_place/nav-list_place_categories.css");
+
 /* подключение стилей для текста */
 @import url("../../components/UI/text/text.css");
 @import url("../../components/UI/text/_type/text_type_author.css");
@@ -27,6 +40,8 @@
 
 /* подключение стилей для формы */
 @import url("../../components/form/form.css");
+@import url("../../components/form/__title/form__title.css");
+@import url("../../components/form/__wrapper/form__wrapper.css");
 @import url("../../components/form/__email/form__email.css");
 @import url("../../components/form/__button/form__button.css");
 
@@ -70,9 +85,6 @@
 @import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
 @import url("../../components/featured-posts/__post/featured-posts__post.css");
 
-/* подключение стилей для кнопок */
-@import url("../../components/UI/button/button.css");
-
 /* подключение стилей для секции hero */
 @import url("../../components/hero/hero.css");
 @import url("../../components/hero/__list/hero__list.css");
@@ -83,5 +95,11 @@
 @import url("../../components/latest-post/__list/latest-post__list.css");
 @import url("../../components/latest-post/__button/latest-post__button.css");
 
-/* подключение стилей для блока-контейнера */
-@import url("../../components/container/container.css");
+/* подключение стилей для секции footer */
+@import url("../../components/footer/footer.css");
+@import url("../../components/footer/__copyright/footer__copyright.css");
+@import url("../../components/footer/__wrapper-top/footer__wrapper-top.css");
+@import url("../../components/footer/__wrapper-bottom/footer__wrapper-bottom.css");
+@import url("../../components/footer/__nav/footer__nav.css");
+@import url("../../components/footer/__sub-nav/footer__sub-nav.css");
+@import url("../../components/footer/__form/footer__form.css");
