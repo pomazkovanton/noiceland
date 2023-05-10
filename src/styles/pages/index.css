@@ -83,6 +83,7 @@
 @import url("../../components/featured-posts/featured-posts.css");
 @import url("../../components/featured-posts/__title/featured-posts__title.css");
 @import url("../../components/featured-posts/__gallery/featured-posts__gallery.css");
+@import url("../../components/featured-posts/__item/featured-posts__item.css");
 @import url("../../components/featured-posts/__post/featured-posts__post.css");
 
 /* подключение стилей для секции hero */
