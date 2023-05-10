@@ -1,0 +1,15 @@
+.footer__wrapper-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  max-width: 675px;
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 715px) {
+  .footer__wrapper-bottom {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

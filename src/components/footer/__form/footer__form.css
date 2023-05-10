@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px) {
+  .footer__form {
+    max-width: 300px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .footer__form {
+    max-width: 100%;
+  }
+}

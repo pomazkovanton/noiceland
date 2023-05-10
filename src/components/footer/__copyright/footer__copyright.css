@@ -1,0 +1,15 @@
+.footer__copyright {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+
+  min-height: 80px;
+
+  border-bottom: 1px solid var(--color-footer-hr);
+}
+
+@media screen and (max-width: 440px) {
+  .footer__copyright {
+    flex-direction: column;
+  }
+}

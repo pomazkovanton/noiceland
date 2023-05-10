@@ -2,12 +2,4 @@
   max-width: 150px;
   margin: 0;
   margin-bottom: 15px;
-
-  font-family: var(--fonts-libreFranklin);
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 12px;
-  color: var(--color-text-gray-second);
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
